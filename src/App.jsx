@@ -221,6 +221,14 @@ export default function App() {
         {view === "quiz" && activeDeck && (
           <Quiz deck={activeDeck} onKnow={updateMastery} onExit={() => setView("home")} />
         )}
+        <a
+          href="https://www.instagram.com/arifcanbaz"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.credit}
+        >
+          arifcanbaz tarafından yapılmıştır
+        </a>
       </div>
     </div>
   );
@@ -724,4 +732,12 @@ const styles = {
   resultBox: { textAlign: "center" },
   resultScore: { fontSize: 42, fontWeight: 800, marginTop: 6 },
   resultSub: { fontSize: 13, color: "#8DA3B3", marginBottom: 16 },
+  credit: {
+    display: "block",
+    textAlign: "center",
+    marginTop: 40,
+    fontSize: 12,
+    color: "#5b7282",
+    textDecoration: "none",
+  },
 };
