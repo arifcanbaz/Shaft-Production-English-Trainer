@@ -227,7 +227,7 @@ export default function App() {
           rel="noopener noreferrer"
           style={styles.credit}
         >
-          arifcanbaz tarafından yapılmıştır
+          Made by arifcanbaz
         </a>
       </div>
     </div>
